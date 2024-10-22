@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINEMA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="CINEMA-ROJO-1.jpg" type="image/x-icon">
+</head>
+<body>
+    <section class="content-box">
+        <div id="scroll-box" class="scroll-container">
+            <header>
+                <div class="logo">TICKETS</div>
+                <div class="box-main">
+                    <div class="title">CINEMA</div>
+                    
+                    <div class="box-buttons classrooms-menu">
+                        <button class="button" onclick="filterClassrooms('csharp')">WALL-E</button>
+                        <button class="button" onclick="filterClassrooms('java')">UP</button>
+                        <button class="button" onclick="filterClassrooms('html')">BACK TO THE FUTURE</button>
+                        <button class="button" onclick="filterClassrooms('css')">ELEMENTS</button>
+                        <button class="button" onclick="filterClassrooms('sql')">EL DORADO</button>
+                    </div>
+                    
+                    <div class="classrooms-items">
+                        <a class="classrooms-item" data-category="csharp" href="https://ww1.m4uhd.tv/watch-movie-wall-e---2008-1715.html" target="_blank">
+                            
+                            <img src="walle.jpg" alt="imagen-1">
+                            
+                        </a>
+                        <a class="classrooms-item" data-category="java" href="https://ww1.m4uhd.tv/watch-movie-up-2009-22752.html" target="_blank">
+                            <img src="upcartel.jpg" alt="imagen-6">
+                           
+                        </a>
+                        
+                        <div class="classrooms-item" data-category="html">
+                            <img src="BTTF-Film-Poster-scaled.jpg" alt="Proyecto 3">
+                           
+                        </div>
+                        <div class="classrooms-item" data-category="css">
+                            <img src="elements.jpeg" alt="Proyecto 4">
+                            
+                        </div>
+                        <div class="classrooms-item" data-category="sql">
+                            <img src="eldorado.jpg" alt="Proyecto 5">
+                           
+                        </div>
+                        <!-- Añade más proyectos aquí -->
+                    </div>
+                </div>
+            </header>
+            <footer> 
+                :) 
+              </footer>
+        </div>
+    </section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
